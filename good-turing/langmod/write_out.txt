@@ -1,0 +1,11 @@
+Project Write Up
+
+by Michael Liu. Oct 11, 2017
+
+I chose Katz's cutoff model and simple Good Turing model because I want to avoid the problem of zero probability for certain words when I implement Good Turing smoothings. Ending up with zero probability is very hard to test the model's perplexity, and I predict that bigram and trigram with natural Good Turing smoothings may potentially result in "infinite" perplexity.
+
+When I coded the simple Good Turing language model, I had a hard time solving the overflow problem. Even though I initially used "40" as my log base just like what the document suggested, I still run into overflow errors. Eventually, I used log base 10 and had to simplify the formula to reduce the number of operations required in the program. By simplifying the original formula through combining the term "B", I was able to overcome the overflow error.
+
+I separated Good Turing model from the langmod file for simplicity sake. In doing this, I made slight modifications in the LanguageModelData's "init" function by making instance containing more data. 
+
+Overall, I really enjoyed working on this project. This is probably my first time implementing a mathematical model from scratch, which is a different experience compared to projects from data structure and algorithms. Furthermore, I love programming in Python because I don't need to write complicated for loop, and every operation in Python can be written in one line.

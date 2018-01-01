@@ -1,0 +1,6 @@
+Noisy Channel Model:
+
+The task is to build a noisy channel that can effectively identify hashtag with the most likelihood. Therefore, the probabilistic model I used in this problem is:
+p(tag|context) ~ argmax_tag p(context|tag)p(tag)
+p(context|tag) = p(w1|w2, w3, w4,..., wn, t)*p(w2|w3, w4,..., wn, t)*...*p(wn|t)*p(t)
+For convenience sake and prevention of division problem, I used the sum of all probability of context words to compute the likelihood of message given specific hashtag. With this, I was able to reconstruct the program to solve the noisy channel model.

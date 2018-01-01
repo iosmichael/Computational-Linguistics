@@ -1,0 +1,27 @@
+
+
+
+tpc_ch1 	-->	 Rian
+tpc_ch10 	-->	 Rian
+tpc_ch11 	-->	 Mencken
+tpc_ch12 	-->	 Machen
+tpc_ch13 	-->	 Machen
+tpc_ch14 	-->	 Machen
+tpc_ch15 	-->	 Machen
+tpc_ch2 	-->	 Machen
+tpc_ch3 	-->	 Machen
+tpc_ch4 	-->	 Machen
+tpc_ch5 	-->	 Machen
+tpc_ch6 	-->	 Mencken
+tpc_ch7 	-->	 Machen
+tpc_ch8 	-->	 Machen
+tpc_ch9 	-->	 Machen
+
+100 MFW , culled @ 0%,  0 of 0	(NaN%)
+
+General attributive success:  0 of 0 (NaN%)
+
+MFWs from 100 to 100 @ increment 100
+Culling from 0 to 0 @ increment 20
+Pronouns deleted: FALSE
+

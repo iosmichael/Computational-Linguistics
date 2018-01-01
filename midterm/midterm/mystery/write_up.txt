@@ -1,0 +1,5 @@
+Zipf's Law Application:
+
+The problem is to identify two mysterious text. One is generated completely by chance, and the other is generated based on real text. The approach I use to identify the two text is to use nltk freqDist to find out which plot is closer to resemble the Zipf's distribution. The rationale behind such approach is that if the text is constructed based on real text, distribution of scrambled words will stay the same, where random text will have an close-to uniform distribution for its words.
+
+After running text analysis on both a and b, I find out that "a.txt" has an uniform word distribution, where "b.txt"'s distribution is closer to zipf's law. Therefore, a is random and b is from real text. 
