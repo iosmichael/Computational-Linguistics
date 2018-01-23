@@ -1,7 +1,5 @@
 '''
-Created on Aug 22, 2013
-
-@author: tvandrun
+@author: michaelliu
 '''
 from __future__ import division
 
